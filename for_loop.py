@@ -50,3 +50,18 @@ for key, value in phone_numbers.items():
     print("{} has as phone number {}".format(key, value))
 # John Smith has as phone number +37682929928
 # Marry Simpons has as phone number +423998200919
+
+
+# print first element if int
+elements = [
+    [1, 4, 6, 7],
+    [4, 5, 6],
+    [6, 7, 8],
+    [],
+    ["text", "text"],
+    [1, 3]
+            ]
+            
+for element in elements:
+    if element and isinstance(element[0], int):
+        print(element[0])
