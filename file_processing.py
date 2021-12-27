@@ -4,7 +4,7 @@
 # a -open for writing and append at the end. Can't read file !!!
 # a+ -open, append and read
 # x - create a new file IF the file does not exist and open for writing
-# seek(0) - put the cursor at begining of the file
+# seek(0) - put the cursor at begining of the file - used to read files
 
 myfile = open('./files/fruits.txt')
 file = myfile.read()
